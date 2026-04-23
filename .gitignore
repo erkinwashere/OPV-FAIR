@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+venv/
+
+# FAIR outputs (generated — don't commit)
+data/fair/
+
+# Raw data (large — use DVC or separate storage)
+# Uncomment if you don't want raw data in git:
+# data/raw/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
